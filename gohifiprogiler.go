@@ -43,6 +43,8 @@ func main() {
 
 	seqtok := []string{}
 	for i := range sequences {
+		// change the profile kmer here according to your choice or check the fyne desktop application where 
+		// you can do everything visuallly. 
 		for j := 0; j <= len(sequences[i])-2; j++ {
 			seqtok = append(seqtok, string(sequences[i][j:j+2]))
 		}
