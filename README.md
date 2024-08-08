@@ -1,6 +1,6 @@
 # go-hifi-profiler
 
-- Profiling of the pacbiohifi reads, making mers and selective filtering of the mers for bubble pop. Some bubbles get clogged dur to composition.
+- Profiling of the pacbiohifi reads, making mers and selective filtering of the mers for bubble pop. Some bubbles get clogged due to composition.
 - This allows to filter the same. 
 - A pacbiohifi go profiler that takes the pacbiohifi reads, makes the mers according to the length, filters the mers according to the critera.
 - This is supported witht a desktop application to see that if your reads have high profiled genomic mers that could hinder the graph assembly.
