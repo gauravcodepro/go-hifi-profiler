@@ -10,6 +10,6 @@ go build main.go
  # provide the path to the pacbiohifi reads file
 ```
 - implementing a embed and also the cli so that it will take the merqury results and will run the concurrent primitives on the same.
-- writing a byte sticther that will stich the reads after adaptive filtering. 
+- writing a byte stitcher that will stich the reads after adaptive filtering. 
 
 Gaurav Sablok
