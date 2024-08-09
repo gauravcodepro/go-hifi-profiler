@@ -71,6 +71,7 @@ func main() {
 
 	filteredKmer := []string{}
 	for i := range kmerclassify {
+		// mention the threshold for the filtering of the low kmers. default value set to 10 and fyne GO application allows to select based on the plotting graph. 
 		if kmerfilter[i] < 10 {
 			filteredKmer = append(filteredKmer, kmerclassify[i])
 		}
